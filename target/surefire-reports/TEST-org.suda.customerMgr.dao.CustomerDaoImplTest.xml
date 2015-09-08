@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="org.suda.customerMgr.dao.CustomerDaoImplTest" time="0.242" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="org.suda.customerMgr.dao.CustomerDaoImplTest" time="0.258" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.8.0\jre\bin"/>
@@ -20,7 +20,7 @@
     <property name="basedir" value="D:\GROUP_8_DEMO_CI\test_unit"/>
     <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.8.0\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="D:\GROUP_8_DEMO_CI\test_unit\target\surefire\surefirebooter5868082411878897063.jar"/>
+    <property name="surefire.real.class.path" value="D:\GROUP_8_DEMO_CI\test_unit\target\surefire\surefirebooter1770121231669380389.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\ritus\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="c:\Program Files\Java\jdk1.8.0\jre"/>
-    <property name="sun.java.command" value="D:\GROUP_8_DEMO_CI\test_unit\target\surefire\surefirebooter5868082411878897063.jar D:\GROUP_8_DEMO_CI\test_unit\target\surefire\surefire3787425824406870688tmp D:\GROUP_8_DEMO_CI\test_unit\target\surefire\surefire348314440985786170tmp"/>
+    <property name="sun.java.command" value="D:\GROUP_8_DEMO_CI\test_unit\target\surefire\surefirebooter1770121231669380389.jar D:\GROUP_8_DEMO_CI\test_unit\target\surefire\surefire4111296238883912288tmp D:\GROUP_8_DEMO_CI\test_unit\target\surefire\surefire540766463881267666tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,6 +61,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.suda.customerMgr.dao.CustomerDaoImplTest" name="testListCustomer" time="0.153"/>
+  <testcase classname="org.suda.customerMgr.dao.CustomerDaoImplTest" name="testListCustomer" time="0.184"/>
   <testcase classname="org.suda.customerMgr.dao.CustomerDaoImplTest" name="testaddcustomer" time="0.003"/>
 </testsuite>

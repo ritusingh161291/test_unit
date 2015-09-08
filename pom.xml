@@ -229,11 +229,8 @@
         <artifactId>cobertura-maven-plugin</artifactId>
         <version>2.3</version>
         <configuration>
-		<formats>
-		<format></format>
-		</formats>
 		
-          <check>
+         <check>
             <haltOnFailure>true</haltOnFailure>
             
             <lineRate>1</lineRate>
