@@ -243,6 +243,10 @@
             <totalLineRate>0</totalLineRate>
             <totalBranchRate>0</totalBranchRate>
           </check>
+		  <formats>  
+                    <format>xml</format>  
+					<format>html</format> 
+                </formats>  
         </configuration>
         <executions>
           <execution>
