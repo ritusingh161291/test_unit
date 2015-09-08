@@ -188,11 +188,7 @@
 	<version>5.0</version>
 </dependency>
     
-	<dependency>
-	<groupId>emma</groupId>
-	<artifactId>emma</artifactId>
-	<version>2.1.5320</version>
-</dependency>
+	
 
 
 
