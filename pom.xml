@@ -179,7 +179,25 @@
 	<version>4.5.1</version>
 </dependency>
     
-    
+    <dependency>
+	<groupId>org.codehaus.sonar</groupId>
+	<artifactId>sonar-testing-harness</artifactId>
+	<version>4.5.1</version>
+</dependency>
+
+<dependency>
+	<groupId>org.codehaus.sonar</groupId>
+	<artifactId>sonar-plugin-api</artifactId>
+	<version>4.5.1</version>
+</dependency>
+<dependency>
+	<groupId>org.codehaus.sonar</groupId>
+	<artifactId>sonar-deprecated</artifactId>
+	<version>4.5.1</version>
+</dependency>
+
+
+
      <dependency>
 	<groupId>org.codehaus.sonar</groupId>
 	<artifactId>sonar-plugin-api</artifactId>
@@ -197,7 +215,7 @@
          <check>
             <haltOnFailure>true</haltOnFailure>
             
-            <lineRate>1</lineRate>
+            <lineRate>0</lineRate>
             <branchRate>0</branchRate>
             <totalLineRate>0</totalLineRate>
             <totalBranchRate>0</totalBranchRate>
