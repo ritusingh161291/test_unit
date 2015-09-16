@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.7192982456140351" branch-rate="0.25" lines-covered="41" lines-valid="57" branches-covered="1" branches-valid="4" complexity="1.1724137931034482" version="1.9.2" timestamp="1442383598564">
+<coverage line-rate="0.7115384615384616" branch-rate="0.25" lines-covered="37" lines-valid="52" branches-covered="1" branches-valid="4" complexity="1.1724137931034482" version="1.9.2" timestamp="1442395814690">
 	<sources>
 		<source>D:/GROUP_8_DEMO_CI/test_unit/src/main/java</source>
 		<source>--source</source>
@@ -69,9 +69,9 @@
 				</class>
 			</classes>
 		</package>
-		<package name="org.suda.customerMgr.dao" line-rate="0.5" branch-rate="0.0" complexity="2.0">
+		<package name="org.suda.customerMgr.dao" line-rate="0.5333333333333333" branch-rate="0.0" complexity="2.0">
 			<classes>
-				<class name="org.suda.customerMgr.dao.CustomerDAOImpl" filename="org/suda/customerMgr/dao/CustomerDAOImpl.java" line-rate="0.5" branch-rate="0.0" complexity="2.0">
+				<class name="org.suda.customerMgr.dao.CustomerDAOImpl" filename="org/suda/customerMgr/dao/CustomerDAOImpl.java" line-rate="0.5333333333333333" branch-rate="0.0" complexity="2.0">
 					<methods>
 						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
 							<lines>
@@ -103,7 +103,6 @@
 						<method name="removeCustomer" signature="(Ljava/lang/Integer;)V" line-rate="0.0" branch-rate="0.0">
 							<lines>
 								<line number="41" hits="0" branch="false"/>
-								<line number="42" hits="0" branch="false"/>
 								<line number="43" hits="0" branch="true" condition-coverage="0% (0/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="0%"/>
@@ -127,7 +126,6 @@
 						<line number="36" hits="2" branch="false"/>
 						<line number="37" hits="2" branch="false"/>
 						<line number="41" hits="0" branch="false"/>
-						<line number="42" hits="0" branch="false"/>
 						<line number="43" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="0%"/>
@@ -149,9 +147,9 @@
 				</class>
 			</classes>
 		</package>
-		<package name="org.suda.customerMgr.domain" line-rate="0.8571428571428571" branch-rate="1.0" complexity="1.0">
+		<package name="org.suda.customerMgr.domain" line-rate="0.8235294117647058" branch-rate="1.0" complexity="1.0">
 			<classes>
-				<class name="org.suda.customerMgr.domain.Customer" filename="org/suda/customerMgr/domain/Customer.java" line-rate="0.8571428571428571" branch-rate="1.0" complexity="1.0">
+				<class name="org.suda.customerMgr.domain.Customer" filename="org/suda/customerMgr/domain/Customer.java" line-rate="0.8235294117647058" branch-rate="1.0" complexity="1.0">
 					<methods>
 						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
 							<lines>
@@ -215,11 +213,7 @@
 						</method>
 						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="79" hits="4" branch="false"/>
-								<line number="80" hits="2" branch="false"/>
-								<line number="81" hits="2" branch="false"/>
-								<line number="82" hits="2" branch="false"/>
-								<line number="83" hits="2" branch="false"/>
+								<line number="79" hits="2" branch="false"/>
 							</lines>
 						</method>
 					</methods>
@@ -240,11 +234,7 @@
 						<line number="70" hits="0" branch="false"/>
 						<line number="74" hits="0" branch="false"/>
 						<line number="75" hits="0" branch="false"/>
-						<line number="79" hits="4" branch="false"/>
-						<line number="80" hits="2" branch="false"/>
-						<line number="81" hits="2" branch="false"/>
-						<line number="82" hits="2" branch="false"/>
-						<line number="83" hits="2" branch="false"/>
+						<line number="79" hits="2" branch="false"/>
 					</lines>
 				</class>
 			</classes>

@@ -154,8 +154,26 @@
     </dependency>
     <dependency>
       <groupId>org.codehaus.sonar</groupId>
+      <artifactId>sonar-testing-harness</artifactId>
+      <version>4.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.sonar</groupId>
       <artifactId>sonar-plugin-api</artifactId>
-      <version>5.0</version>
+      <version>4.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.sonar</groupId>
+      <artifactId>sonar-deprecated</artifactId>
+      <version>4.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.sonar</groupId>
+      <artifactId>sonar-maven-plugin</artifactId>
+      <version>2.6</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
@@ -244,7 +262,7 @@
             <configuration>
               <check>
                 <haltOnFailure>true</haltOnFailure>
-                <lineRate>1</lineRate>
+                <lineRate>0</lineRate>
                 <branchRate>0</branchRate>
                 <totalLineRate>0</totalLineRate>
                 <totalBranchRate>0</totalBranchRate>
@@ -259,7 +277,7 @@
         <configuration>
           <check>
             <haltOnFailure>true</haltOnFailure>
-            <lineRate>1</lineRate>
+            <lineRate>0</lineRate>
             <branchRate>0</branchRate>
             <totalLineRate>0</totalLineRate>
             <totalBranchRate>0</totalBranchRate>
